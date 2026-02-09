@@ -205,7 +205,7 @@ function checkDrop() {
 }
 
 
-// for pages 
+// for pagination 
 function updatePagination() {
 
     let allRows = tableBody.querySelectorAll("tr");

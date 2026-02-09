@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Validation </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+
+
+        <div class="mainleft">
+            <div class="uperleft">
+                <div class="srchbox">
+                    <input type="text" id="searchbar" class="searchbar" placeholder="Search by city...">
+                </div>
+
+                <div>
+                    <select name="city" id="cityd">
+                        <option value="">All Cities</option>
+                        <option value="Surat">Surat</option>
+                        <option value="Rajkot">Rajkot</option>
+                        <option value="Junagadh">Junagadh</option>
+                    </select>
+                </div>
+            </div>
+            <div class="table">
+                <table id="userTable">
+                    <thead>
+                    <tr>
+                        <th>F name</th>
+                        <th> L name</th>
+                        <th> City</th>
+                        <th> Address</th>
+                        <th> Contact</th>
+                        <th> Hobbie</th>
+                        <th> Gender</th>
+                        <th> Email</th>
+                        <th> Action </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>suresh</td>
+                            <td>rana</td>
+                            <td>surat</td>
+                            <td>varachha</td>
+                            <td>2356897412</td>
+                            <td>riding</td>
+                            <td>male</td>
+                            <td>suresh@rana.this.com</td>
+                            <td> <button class="editbtn"> Edit </button>
+                                <button class="dltbtn"> Delete</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>ramesh</td>
+                            <td>babu</td>
+                            <td>rajkot</td>
+                            <td>mavdi</td>
+                            <td>2358897412</td>
+                            <td>reading</td>
+                            <td>male</td>
+                            <td>ramesh@babu.this.com</td>
+                            <td> <button class="editbtn"> Edit </button>
+                                <button class="dltbtn"> Delete</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>shital</td>
+                            <td>raina</td>
+                            <td>mumbai</td>
+                            <td>pavai</td>
+                            <td>2556897412</td>
+                            <td>reading</td>
+                            <td>female</td>
+                            <td>shital@raina.this.com</td>
+                            <td> <button class="editbtn"> Edit </button>
+                                <button class="dltbtn"> Delete</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>chaman</td>
+                            <td>rana</td>
+                            <td>surat</td>
+                            <td>mota - varachha</td>
+                            <td>2356874412</td>
+                            <td>dancing</td>
+                            <td>male</td>
+                            <td>chaman@rana.this.com</td>
+                            <td> <button class="editbtn"> Edit </button>
+                                <button class="dltbtn"> Delete</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>kiara</td>
+                            <td>adani</td>
+                            <td>junagadh</td>
+                            <td>joshipara</td>
+                            <td>235852362</td>
+                            <td>traking</td>
+                            <td>female</td>
+                            <td>kiara@adani.this.com</td>
+                            <td> <button class="editbtn"> Edit </button>
+                                <button class="dltbtn"> Delete</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="pagination">
+                    <button id="prevPage"> <- </button>
+                            <span id="pageInfo"></span>
+                            <button id="nextPage"> -> </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="mainright">
+            <div class="form">
+                <form id="form">
+                    <input type="text" id="fname" placeholder="First Name">
+                    <small id="error" style="color: red;"></small>
+                    <input type="text" id="lname" placeholder="Last Name">
+                    <small id="error" style="color: red;"></small>
+                    <input type="text" id="city" placeholder="City">
+                    <small id="error" style="color: red;"></small>
+                    <input type="text" id="address" placeholder="Address">
+                    <small id="error" style="color: red;"></small>
+                    <input type="text" id="contact" placeholder="Contact">
+                    <small id="error" style="color: red;"></small>
+                    <input type="text" id="hobbie" placeholder="Hobbie">
+                    <small id="error" style="color: red;"></small>
+                    <input type="text" id="gender" placeholder="Gender">
+                    <small id="error" style="color: red;"></small>
+                    <input type="text" id="email" placeholder="Email">
+                    <small id="error" style="color: red;"></small>
+                    <button id="submitbtn">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
